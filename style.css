@@ -4,6 +4,24 @@ Written by Sam Katz working for Cheer Up Madison
 smkatz@gmail.com
 */
 
+@font-face {
+	font-family: "kidsboardgamefont.ttf";
+	src: url("<./assets/fonts/kidsboardgamefont.ttf>");
+}
+@font-face {
+	font-family: "Luna";
+	src: url("/assets/fonts/Luna.ttf");
+}
+@font-face {
+	font-family: "MFPKidnapped.ttf"
+	src: url("/assets/fonts/Luna.ttf");
+}
+
+
+p {
+
+}
+
 h1 {
 
 }
@@ -12,14 +30,29 @@ h1 {
 
 body {
 background:url(assets/img/backgroundColors.svg);
+width: 100%;
 }
 
-nav {
+.nav {
 
 
+}
+
+.logo {
+padding:30%,30%,30%,30%;
 }
 
 #crankymeter {
 	align-text:center;
-	padding:;
+	border:20px;
+	padding-top: <##>;;
+	padding-right:
+	padding-left: <##>;
+	padding-bottom: <##>;
+	
+}
+
+
+.footer {
+
 }
