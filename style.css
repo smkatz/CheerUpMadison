@@ -18,6 +18,9 @@ smkatz@gmail.com
 }
 
 
+
+
+
 p {
 
 }
@@ -42,13 +45,14 @@ width: 100%;
 padding:30%,30%,30%,30%;
 }
 
-#crankymeter {
+ img {/*  .cranky .sad .family */
 	align-text:center;
 	border:20px;
-	padding-top: <##>;;
-	padding-right:
-	padding-left: <##>;
-	padding-bottom: <##>;
+	margin:3em;
+	/* 
+padding-right: 221PX;
+ */
+
 	
 }
 
