@@ -46,12 +46,17 @@ padding:30%,30%,30%,30%;
 }
 
  img {/*  .cranky .sad .family */
-	align-text:center;
-	border:20px;
+	text-align:center;
+	/* border:20px; */
 	margin:3em;
+	display:inline;
 	/* 
 padding-right: 221PX;
  */
+ 
+ ul {
+ list-style-type: none;
+ }
 
 	
 }
