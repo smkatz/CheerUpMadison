@@ -34,6 +34,24 @@ h1 {
 body {
 background:url(assets/img/backgroundColors.svg);
 width: 100%;
+/* original code from stackoverflow had a display selector, which I excluded.*/
+
+margin: 0px;
+padding: 0px;
+position: relative;
+top: 90px;
+height: auto;
+max-width: auto;
+overflow-y: hidden;
+overflow-x:auto;
+
+}
+
+nav#images {
+display:inline; }
+nav#images li { float: left; width: 12em; }
+
+McFarland, David Sawyer. CSS3: The Missing Manual (Kindle Locations 7378-7379). O'Reilly Media. Kindle Edition. 
 }
 
 .nav {
@@ -42,24 +60,33 @@ width: 100%;
 }
 
 .logo {
-padding:30%,30%,30%,30%;
+/* padding:30%,30%,30%,30%; */
 }
 
- img {/*  .cranky .sad .family */
+/* 
+ img {/*  .cranky .sad .family */ /*allows it to act on img alone.*/
 	text-align:center;
 	/* border:20px; */
 	margin:3em;
-	display:inline;
-	/* 
-padding-right: 221PX;
+
+	display: inline;
+margin: 0px;
+padding: 0px;
+	
+	
+	white-space:nowrap;
+
+ */
  */
  
  ul {
  list-style-type: none;
  }
+ 
+ 
 
 	
-}
+
 
 
 .footer {
